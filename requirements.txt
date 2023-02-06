@@ -6,7 +6,6 @@ matplotlib
 streamlit-folium
 streamlit-echarts
 streamlit-option-menu
-json
 requests
 BeautifulSoup
 streamlit-aggrid
