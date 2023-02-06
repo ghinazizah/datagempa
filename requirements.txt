@@ -3,3 +3,10 @@ pandas
 folium
 numpy
 matplotlib
+st_folium
+st_echarts
+option_menu
+json
+requests
+BeautifulSoup
+AgGrid
