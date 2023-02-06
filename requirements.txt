@@ -3,10 +3,10 @@ pandas
 folium
 numpy
 matplotlib
-st_folium
-st_echarts
-option_menu
+streamlit-folium
+streamlit-echarts
+streamlit-option-menu
 json
 requests
 BeautifulSoup
-AgGrid
+streamlit-aggrid
