@@ -71,7 +71,6 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 if selected == 'Home' or selected == '':
-    st.subheader("Gempabumi")
     st.title("Gempabumi Terkini")
     url = ("https://www.bmkg.go.id/gempabumi-dirasakan.html")
     req = requests.get(url)
@@ -237,28 +236,28 @@ elif selected == 'Skala Gempa' :
 
     with st.container() : 
         
-        st.subheader("Daftar Gempa Skala 2.5 - 5,4") 
+        st.subheader("Daftar Gempa Skala 2.5 - 5.4") 
         st.write("Sering dirasakan, tetapi hanya menyebabkan kerusakan kecil")
         df = pd.DataFrame(dua, columns=["Tanggal","Jam","Latitude","Longitude","Kedalaman","Magnitudo","Lokasi"], dtype=str)
         st.dataframe(df)
 
     with st.container() : 
         
-        st.subheader("Daftar Gempa Skala 5,5 - 6,0") 
+        st.subheader("Daftar Gempa Skala 5.5 - 6.0") 
         st.write("Dapat menyebabkan kerusakan ringan pada bangunan dan struktur lainnya")
         df = pd.DataFrame(tiga, columns=["Tanggal","Jam","Latitude","Longitude","Kedalaman","Magnitudo","Lokasi"], dtype=str)
         st.dataframe(df)
 
     with st.container() : 
         
-        st.subheader("Daftar Gempa Skala 6,1 - 6,9") 
+        st.subheader("Daftar Gempa Skala 6.1 - 6.9") 
         st.write("Dapat menyebabkan banyak kerusakan di daerah berpenduduk padat")
         df = pd.DataFrame(empat, columns=["Tanggal","Jam","Latitude","Longitude","Kedalaman","Magnitudo","Lokasi"], dtype=str)
         st.dataframe(df)
 
     with st.container() : 
         
-        st.subheader("Daftar Gempa Skala 7,0 - 7,9") 
+        st.subheader("Daftar Gempa Skala 7.0 - 7.9") 
         st.write("Gempa bumi besar dengan kerusakan serius")
         df = pd.DataFrame(lima, columns=["Tanggal","Jam","Latitude","Longitude","Kedalaman","Magnitudo","Lokasi"], dtype=str)
         st.dataframe(df)
